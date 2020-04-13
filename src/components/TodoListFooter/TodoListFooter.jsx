@@ -2,6 +2,7 @@ import React from 'react';
 
 
 class TodoListFooter extends React.Component {
+
     render = () => {
 
         let classForAll = this.props.filterValue === "All" ? "filter-active" : "";
